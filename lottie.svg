@@ -1,0 +1,29 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" preserveAspectRatio="xMidYMin" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <title>Lottie</title>
+
+  <defs>
+    <g id="lotti" stroke="black" stroke-width="0.5" stroke-linecap="round" fill="none">
+      <!-- l -->
+      <path d="M 3 16 Q 1 18 2 20.5" />
+      <!-- o-->
+      <circle cx="4.75" cy="17.75" r="1.35" />
+      <!-- t -->
+      <path d="M 8.5 16 L 8.5 20" />
+      <path d="M 7.5 17 L 9.5 17" />
+      <!-- t -->
+      <path d="M 11.5 16 L 11.5 20" />
+      <path d="M 10.5 17 L 12.5 17" />
+      <!-- i -->
+      <path d="M 14 17 L 14 20" />
+      <circle cx="14" cy="16" r="0.25" stroke-width="0.125" fill="black" />
+    </g>
+  </defs>
+
+  <use xlink:href="#lotti"/>
+  <use xlink:href="#lotti" transform="rotate(90 11 11)"/>
+  <use xlink:href="#lotti" transform="rotate(180 11 11)"/>
+  <use xlink:href="#lotti" transform="rotate(270 11 11)"/>
+
+</svg>
